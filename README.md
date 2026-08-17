@@ -5,6 +5,13 @@ ChatGPT デスクトップアプリ上で **Codex** をはじめる人のため�
 
 📖 **[ガイドを読む](https://hugesesame.github.io/codex-desktop-app-guide/)**
 
+<p align="center">
+  <a href="https://hugesesame.github.io/codex-desktop-app-guide/">
+    <img src="assets/screenshot.png" alt="ガイド冒頭（PC表示）" width="620" valign="middle">
+    <img src="assets/screenshot-mobile.png" alt="ガイド冒頭（スマートフォン表示）" width="152" valign="middle">
+  </a>
+</p>
+
 ---
 
 ## 特徴
@@ -68,5 +75,12 @@ open codex-desktop-app-guide/index.html
 
 ## ライセンス
 
-文章・コードともに [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja) とします。
-出典を明示していただければ、自由に引用・改変・再配布して構いません。
+文章・コードともに [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja) とします（全文は [LICENSE](LICENSE)）。
+出典を明示していただければ、営利目的を含め、自由に引用・改変・再配布して構いません。
+
+クレジットの表記例:
+
+```
+「チャットの、その先へ。— はじめてのAIエージェント Codex」(hugesesame) / CC BY 4.0
+https://hugesesame.github.io/codex-desktop-app-guide/
+```
