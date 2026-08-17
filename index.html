@@ -569,7 +569,10 @@ th,td{
 th{font-weight:600;font-size:13.5px;color:var(--ink-48);letter-spacing:0;white-space:nowrap;}
 .tile--dark th,.tile--dark-2 th,.tile--dark-3 th{color:var(--muted-on-dark);}
 tbody tr:last-child th,tbody tr:last-child td{border-bottom:0;}
-td:first-child,th:first-child{font-weight:600;color:inherit;min-width:6.5em;}
+/* box-sizing:border-box なので min-width にパディング(左右14px)が含まれる。
+   em だけで指定すると「完了条件」のような4文字の見出しが語中で折れるため、
+   パディング分を足して文字用の幅を確保する */
+td:first-child,th:first-child{font-weight:600;color:inherit;min-width:calc(7.5em + 28px);}
 .scrollhint{
   font-size:12px;color:var(--ink-48);margin:0 0 26px;
 }
