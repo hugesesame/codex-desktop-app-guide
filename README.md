@@ -75,6 +75,8 @@ open codex-desktop-app-guide/index.html
 
 ## ライセンス
 
+© 2026 hugesesame
+
 文章・コードともに [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja) とします（全文は [LICENSE](LICENSE)）。
 出典を明示していただければ、営利目的を含め、自由に引用・改変・再配布して構いません。
 
